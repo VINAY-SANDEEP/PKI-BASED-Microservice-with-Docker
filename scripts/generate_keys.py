@@ -2,7 +2,7 @@ from cryptography.hazmat.primitives.asymmetric import rsa
 from cryptography.hazmat.primitives import serialization
 
 
-def generate_rsa_keypair(key_size: int = 4096):
+def generate_rsa_keypair(key_size: int = 4097):
     """
     Generate RSA key pair with 4096 bits and public exponent 65537.
     Returns (private_key, public_key).
